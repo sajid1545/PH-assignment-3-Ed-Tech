@@ -450,7 +450,7 @@
                 </p>
             </div>
 
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
                 <div class="row g-4 ">
                     <div class=" col-md-12 col-lg-6">
                         <div class="card p-3">
@@ -518,23 +518,119 @@
 
 
                 </div>
-                <div class="d-none d-lg-block">
-                    <button class="carousel-control-prev  " type="button" data-bs-target="#carouselExampleControls "
+                <div class="d-none d-lg-block ">
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls "
                         data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
-                        <!-- <span class="visually-hidden">Previous</span> -->
+                        <span class="carousel-control-prev-icon bg-primary bg-opacity-50 rounded-circle"
+                            aria-hidden="true"></span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
-                        <!-- <span class="visually-hidden">Next</span> -->
+                        <span class="carousel-control-next-icon bg-primary bg-opacity-50  rounded-circle"
+                            aria-hidden="true"></span>
                     </button>
                 </div>
             </div>
 
-
+            <div class="text-center my-4">
+                <button type="button"
+                    class="btn bg-success text-white bg-gradient text-dark  fw-bold px-4 py-1  px-md-4 py-md-2 fs-5 mt-md-2">View
+                    More
+                </button>
+            </div>
         </section>
         <!-- * Student Feedback Section ends here =========================-->
+
+        <!-- * FAQ section starts Here ======================================-->
+
+        <section class="my-5 ">
+            <div class="text-center w-50 mx-auto mb-5">
+                <h1 class="display-5 fw-bold">Frequently Asked Questions</h1>
+                <p>A frequently asked questions list is often used in articles, websites, email lists, and online forums
+                    where common questions tend to recu
+                </p>
+            </div>
+
+            <div class="accordion w-75 mx-auto" id="accordionExample">
+                <div class="accordion-item p-2">
+                    <h2 class="accordion-header " id="headingOne">
+                        <button class="accordion-button fw-bold text-dark fs-4" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Difference between Flexbox and Grid
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span class="fw-bolder text-danger fst-italic">CSS Grid</span> Layout, is a two-dimensional
+                            grid-based layout system with rows and columns, making it easier to design web pages without
+                            having to use floats and positioning. Like tables, grid layout allow us to align elements
+                            into columns and rows.
+                            The <span class="fw-bolder text-danger fst-italic">CSS Flexbox</span> offers a
+                            one-dimensional layout. It is helpful in allocating and aligning the space among items in a
+                            container (made of grids). It works with all kinds of display devices and screen sizes.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item p-2">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-bold text-dark fs-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Difference Between Tailwind CSS and Bootstrap
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span class="fw-bolder text-danger fst-italic">Bootstrap </span> is the most popular HTML,
+                            CSS, and JavaScript framework for building responsive,mobile-first projects on the web.
+                            Whereas <span class="fw-bolder text-danger fst-italic">Tailwind CSS </span>is a
+                            utility-first
+                            CSS framework for creating custom user interfaces quickly.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item p-2">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-bold text-dark fs-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            What is CSS box Model ?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Every element that can be displayed on a web page is comprised of one or more rectangular
+                            boxes.<span class="fw-bolder text-danger fst-italic">CSS Box Model</span> typically
+                            describes how these rectangular boxes are laid out on a web page.Every box has a content
+                            area as well as optional padding, border, and margin portions.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item p-2">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed fw-bold text-dark fs-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            What are Semantic Tags ?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span class="fw-bolder text-danger fst-italic">HTML semantics</span> refers to the tags in
+                            an HTML page that provide meaning rather than just display. It clarifies HTML by better
+                            describing the various sections and layout of web pages.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- * FAQ section ends Here ======================================-->
 
     </main>
 
